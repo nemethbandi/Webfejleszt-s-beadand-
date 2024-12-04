@@ -521,7 +521,6 @@ main {
   align-self: flex-end;
   padding: 1vh;
   border-radius: 10px;
-  max-width: 100%;
 }
 
 .bot-message {
