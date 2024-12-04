@@ -1,0 +1,52 @@
+ NÉV:
+        
+        Németh András Fülöp 
+
+
+ TÉMA:
+  
+         A weboldalam témája egy általam kitalált IT cég, akik egy mesterséges intelligencia alapú chatbot alkalmazást fejlesztettek.
+         A cég az autókra specializálódott, és az applikációjuk segít az embereknek ha valami probléma van vele,
+         hogy ne kelljen egyből szervízbe vinni a járgányt. A weboldalam a cég hétköznapi oldalaként funkcionál.
+         Az oldalon sok kattinthatónak tűnő elem van azonban ezek jelenleg nem funkcionálnak, ugyanis nincs szerver oldal írva az oldalhoz.
+         A képeket az internetről szedtem le és nem reprezenálnak valós személyeket.
+
+ JS KÓD:
+
+        Az oldalon több javascript kód is található, azonban nem mindegyik a saját szellemi termékem 100%-osan. Ezeket később hivatkozom.
+        Megemlítés szinten az oldalon szerepel egy hamburger menü, ami minden oldalon jelen van, egy számláló az index oldalon,
+        egy helpdesk chat funkció a kapcsolat oldalon és a headerben egy csevegést imitáló beszélgetés szintén minden oldalon.
+        (100%-ban az átvett kódok sem másoltak.)
+
+        1. saját kód: a headerben lévő chatfunkció. Ezzel egy design elemet akartam készíteni ami megjeleníti egymás után a három elemet,
+        majd eltünteti őket. Mindezt bizonyos időközönként.
+
+        2. saját kód: a kapcsolat oldalon lévő chatfunkció. Itt megpróbáltam szimulálni egy mesterséges intelligencia alapú helpdesket.
+        A kód valójában nem intelligens csupán egy listából ad vissza véletlenszerűen válaszokat. 
+
+ FONT:
+
+        A oldalamhoz két egyedi fonttípust használtam. Mindkettőnek a bold verzióját.
+
+        1. OPEN SANS ---> https://fonts.google.com/specimen/Open+Sans 
+
+        2. POPPINS   ---> https://fonts.google.com/specimen/Poppins
+
+
+ HIVATKOZÁSOK:
+
+        1. Hamburger menü ---> https://www.youtube.com/watch?v=1iS0r238G4g&list=LL&index=3&t=503s 
+
+        A kódot át kellett írni, ugyanis nem teljesen illeszkedett az én weboldalamba, továbbá nem volt mobile-first, amit szintén
+        át kellett alakítani.
+
+        Itt használni kellett font-awesome nevű külső stíluslapos ikonokat. Végül az egész weboldalamon ezeket használtam.
+
+        FONT AWESOME ---> https://fontawesome.com/
+
+        2. Számláló ---> https://www.youtube.com/watch?v=Sv54eYCfDZc&t=301s
+
+        Ezt a kódot sem 100%-osan emeltem át végeztem rajta átalakításokat és megpróbáltam leegyszerűsíteni, továbbá Google 
+        segítségével kiegészíteni.
+
+        3. Továbbá segítségül hívtam a ChatGpt-t a form validációnál az error msg-ek helyes pozicionálásához.

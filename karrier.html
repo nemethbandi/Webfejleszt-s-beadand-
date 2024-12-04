@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Németh András Fülöp" />
+    <meta name="description" content="REPAIRX Weboldala" />
+    <title>KARRIER</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link href="favicon/csavar.png" rel="icon" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1><a href="index.html">REPAIRX</a></h1>
+        </div>
+        <div id="open-menu"><i class="fa fa-bars"></i></div>
+        <ul id="main-menu">
+          <li><a href="arazas.html">ÁRAZÁS</a></li>
+          <li><a href="csapat.html">CSAPAT</a></li>
+          <li><a href="kapcsolat.html">KAPCSOLAT</a></li>
+          <li><a id="current" href="#">KARRIER</a></li>
+          <li>
+            <div id="close-menu"><i class="fa fa-times"></i></div>
+          </li>
+          <li>
+            <span id="icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </span>
+          </li>
+        </ul>
+      </nav>
+      <section id="header-content">
+        <h1>CSATLAKOZZ HOZZÁNK!</h1>
+        <p>Csatlakozz hozzánk és küldd el az önéletrajzod akár most!</p>
+      </section>
+      <section id="header-chatbox">
+        <div class="chat-item odd">
+          <div>
+            <h3>CUSTOMER</h3>
+            <p>Szia! Kopogó hangot hallok a motortérből.</p>
+          </div>
+          <div><img src="pictures/customer.jpg" alt="customer_head" /></div>
+        </div>
+        <div class="chat-item even">
+          <div>
+            <h3>CHATBOT</h3>
+            <p>Szia! Próbáld meg a motortérben leellenőrizni a csapágyakat.</p>
+          </div>
+          <div>
+            <img src="pictures/chatbot.jpg" alt="chatbot" />
+          </div>
+        </div>
+        <div class="chat-item odd">
+          <div>
+            <h3>CUSTOMER</h3>
+            <p>Köszönöm! Sikerült megszüntetni.</p>
+          </div>
+          <div><img src="pictures/customer.jpg" alt="customer_head" /></div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="position">
+        <div class="position-container">
+          <div class="position-card">
+            <h1>JAVASCRIPT FEJLESZTŐ</h1>
+            <p>ÉRDEKEL</p>
+          </div>
+          <div class="position-card">
+            <h1>SALES GYAKORNOK</h1>
+            <p>ÉRDEKEL</p>
+          </div>
+          <div class="position-card">
+            <h1>SOCIAL MEDIA MANAGER</h1>
+            <p>ÉRDEKEL</p>
+          </div>
+        </div>
+      </section>
+      <section class="form">
+        <div class="form-container">
+          <h1>JELENTKEZÉS</h1>
+          <form
+            action="https://rf.uni-corvinus.hu/webfejlesztes/receive.php"
+            method="POST"
+            id="myform"
+            novalidate
+          >
+            <label for="name">Teljes név:</label><br />
+            <input type="text" id="name" name="name" /><br /><br />
+
+            <label for="email">Email cím:</label><br />
+            <input type="email" id="email" name="email" /><br /><br />
+
+            <label for="phone">Telefonszám:</label><br />
+            <input type="tel" id="phone" name="phone" /><br /><br />
+
+            <label for="position">Válasszon pozíciót:</label><br />
+            <select id="position" name="position">
+              <option value="">-- Kérem, válasszon --</option>
+              <option value="js_developer">JAVASCRIPT FEJLESZTŐ</option>
+              <option value="sales">SALES GYAKORNOK</option>
+              <option value="social_manager">
+                SOCIAL MEDIA MANAGER
+              </option></select
+            ><br /><br />
+
+            <label>Ön jelenleg foglalkoztatva van ?</label><br />
+            <div class="radio-group">
+              <input
+                type="radio"
+                id="employed_yes"
+                name="employed"
+                value="yes"
+              />
+              <label for="employed_yes">Igen</label><br />
+              <input type="radio" id="employed_no" name="employed" value="no" />
+              <label for="employed_no">Nem</label><br />
+            </div>
+            <br />
+
+            <label
+              >Tapasztalatom van (jelöljön meg többet is, ha szükséges):</label
+            ><br />
+            <div class="checkbox-group">
+              <input
+                type="checkbox"
+                id="skill1"
+                name="skills[]"
+                value="ms_office"
+              />
+              <label for="skill1">MS Office programok</label><br />
+              <input type="checkbox" id="skill2" name="skills[]" value="sap" />
+              <label for="skill2">SAP</label><br />
+              <input
+                type="checkbox"
+                id="skill3"
+                name="skills[]"
+                value="management"
+              />
+              <label for="skill3">Menedzsment</label><br />
+              <input
+                type="checkbox"
+                id="skill4"
+                name="skills[]"
+                value="communication"
+              />
+              <label for="skill4">Kommunikáció</label><br />
+            </div>
+            <br />
+
+            <label for="availability">Mikor tud kezdeni:</label><br />
+            <input
+              type="date"
+              id="availability"
+              name="availability"
+            /><br /><br />
+
+            <label for="resume">Önéletrajz feltöltése:</label><br />
+            <input type="file" id="resume" name="resume" /><br /><br />
+
+            <label for="message">Egyéb üzenet a vezetőknek:</label><br />
+            <textarea id="message" name="message" rows="4" cols="30"></textarea
+            ><br /><br />
+
+            <button type="submit">Jelentkezés beküldése</button>
+            <button type="reset">Törlés</button>
+          </form>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="cards-container">
+          <div class="card-item">
+            <img src="pictures/job_applicant.webp" alt="job_applicant" />
+            <h3>CSATLAKOZZ HOZZÁNK</h3>
+            <p>
+              Cégünk folyamatosan bővül! Küldd el az önéletrajzod és a
+              motivációs leveled!
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="pictures/student.jpg" alt="student" />
+            <h3>GYAKORNOKI PROGRAM</h3>
+            <p>
+              Várunk a csapatba pályakezdőket és egyetemistákat. Jelentkezz, ha
+              érdekel az AI világa!
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="pictures/team.webp" alt="team" />
+            <h3>CSALÁDIAS LÉGKÖR</h3>
+            <p>
+              Számunkra a családias és jó csapat ugyanúgy fontos, mint a
+              szakmaiság!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-elements">
+        <div class="logo"><h1>REPAIRX</h1></div>
+        <div class="creator">
+          <p>Powered by Németh András</p>
+        </div>
+      </section>
+    </footer>
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="jquery-validation-1.19.5/dist/jquery.validate.min.js"></script>
+    <script>
+      $("#myform").validate({
+        rules: {
+          name: {
+            required: true,
+            minlength: 3,
+          },
+          email: {
+            required: true,
+            email: true,
+          },
+          phone: {
+            required: true,
+            minlength: 10,
+            digits: true,
+          },
+          position: {
+            required: true,
+          },
+          employed: {
+            required: true,
+          },
+          "skills[]": {
+            required: true,
+            minlength: 1,
+          },
+          availability: {
+            required: true,
+            date: true,
+          },
+          resume: {
+            required: true,
+            extension: "pdf|doc|docx",
+          },
+          message: {
+            required: false,
+            maxlength: 100,
+          },
+        },
+        messages: {
+          name: {
+            required: "Kérlek, add meg a teljes neved!",
+          },
+          email: {
+            required: "Kérlek, add meg az email címed!",
+            email: "Valós email címet adj meg!",
+          },
+          phone: {
+            required: "Kérlek, add meg a telefonszámod!",
+            digits: "A helyes formátum: 06...!",
+          },
+          position: {
+            required: "Kérlek, válassz egy pozíciót!",
+          },
+          employed: {
+            required:
+              "Kérlek, jelöld meg, hogy jelenleg foglalkoztatott vagy-e!",
+          },
+          "skills[]": {
+            required: "Kérlek, válassz legalább egy készséget!",
+            minlength: "Legalább egy készséget válassz!",
+          },
+          availability: {
+            required: "Kérlek, add meg, hogy mikor tudsz kezdeni!",
+          },
+          resume: {
+            required: "Kérlek, tölts fel egy önéletrajzot!",
+            extension: "Csak PDF, DOC vagy DOCX fájlt tölthetsz fel!",
+          },
+          message: {
+            maxlength: "Az üzenet maximum 100 karakter lehet!",
+          },
+        },
+
+        errorPlacement: function (error, element) {
+          if (
+            element.attr("type") == "radio" ||
+            element.attr("type") == "checkbox"
+          ) {
+            error.insertAfter(element.closest(".checkbox-group, .radio-group"));
+          } else {
+            error.insertAfter(element);
+          }
+        },
+      });
+    </script>
+    <script src="script/script.js"></script>
+  </body>
+</html>

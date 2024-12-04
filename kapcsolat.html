@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Németh András Fülöp" />
+    <meta name="description" content="REPAIRX Weboldala" />
+    <title>KAPCSOLAT</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link href="favicon/csavar.png" rel="icon" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1><a href="index.html">REPAIRX</a></h1>
+        </div>
+        <div id="open-menu"><i class="fa fa-bars"></i></div>
+        <ul id="main-menu">
+          <li><a href="arazas.html">ÁRAZÁS</a></li>
+          <li><a href="csapat.html">CSAPAT</a></li>
+          <li><a id="current" href="#">KAPCSOLAT</a></li>
+          <li><a href="karrier.html">KARRIER</a></li>
+          <li>
+            <div id="close-menu"><i class="fa fa-times"></i></div>
+          </li>
+          <li>
+            <span id="icons">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </span>
+          </li>
+        </ul>
+      </nav>
+
+      <section id="header-content">
+        <h1>VEDD FEL VELÜNK A KAPCSOLATOT!</h1>
+        <p>Vedd fel velünk a kapcsolatot és keress minket bátran!</p>
+      </section>
+      <section id="header-chatbox">
+        <div class="chat-item odd">
+          <div>
+            <h3>CUSTOMER</h3>
+            <p>Szia! Kopogó hangot hallok a motortérből.</p>
+          </div>
+          <div><img src="pictures/customer.jpg" alt="customer_head" /></div>
+        </div>
+        <div class="chat-item even">
+          <div>
+            <h3>CHATBOT</h3>
+            <p>Szia! Próbáld meg a motortérben leellenőrizni a csapágyakat.</p>
+          </div>
+          <div>
+            <img src="pictures/chatbot.jpg" alt="chatbot" />
+          </div>
+        </div>
+        <div class="chat-item odd">
+          <div>
+            <h3>CUSTOMER</h3>
+            <p>Köszönöm! Sikerült megszüntetni.</p>
+          </div>
+          <div><img src="pictures/customer.jpg" alt="customer_head" /></div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="cards">
+        <div class="cards-container">
+          <div class="card-item">
+            <img src="pictures/helpdesk.jpeg" alt="helpdesk" />
+            <h3>0-24 ÜGYFÉLSZOLGÁLAT</h3>
+            <p>
+              Probléma esetén több mint 10 munkatársunk várja hívásod, hogy
+              segítségedre legyen, ha elakadtál!
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="pictures/ai_helpdesk.jpg" alt="ai_helpdesk" />
+            <h3>AI ALAPÚ HELPDESK</h3>
+            <p>Ügyfélszolgálatunkat már új technológiás AI botok segítik!</p>
+          </div>
+          <div class="card-item">
+            <img src="pictures/global.jpg" alt="global" />
+            <h3>HATÁROKON TÚL</h3>
+            <p>
+              Nálunk az országhatár átlépése sem jelent problémát, ugyanis
+              bárhonnan ingyen hívhatsz minket!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="helpdesk">
+        <div class="helpdesk-container">
+          <h1>PRÓBÁLD KI AZ AI ALAPÚ HELPDESKET!</h1>
+          <div class="chat-container">
+            <div class="chat-box"></div>
+            <div class="input-area">
+              <input type="text" id="chat-input" placeholder="Írj valamit..." />
+              <button id="send-button">Küldés</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="contact-container">
+          <div class="info">
+            <i class="fa-solid fa-phone"></i>
+            <p>06-30-766-8899</p>
+          </div>
+          <div class="info">
+            <i class="fa-solid fa-envelope"></i>
+            <p>repairx@gmail.com</p>
+          </div>
+          <div class="info">
+            <i class="fa-solid fa-address-book"></i>
+            <p>1134. Budapest, Sajt utca 14.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-elements">
+        <div class="logo"><h1>REPAIRX</h1></div>
+        <div class="creator">
+          <p>Powered by Németh András</p>
+        </div>
+      </section>
+    </footer>
+    <script src="script/script.js"></script>
+  </body>
+</html>
